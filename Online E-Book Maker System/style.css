@@ -1,0 +1,89 @@
+*{margin: 0;padding: 0;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+height: 100%;
+line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+background-position: center;
+background-size: cover;
+background-image: url("img5.jpg");
+
+min-height: 100%;
+}
+
+.w3-bar .w3-button {
+padding: 16px;
+
+}
+
+/* sub menu*/
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The subnavigation menu */
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: rgb(155, 224, 228);
+  }
+  
+
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(167, 221, 217);
+    width: 100%;
+    z-index: 1;
+  }
+  
+  /* Style the subnav links */
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Add a grey background color on hover */
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+ 
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+

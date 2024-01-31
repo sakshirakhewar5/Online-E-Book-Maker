@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Free Online E-Book Maker</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">   
+    <link rel="stylesheet" href="sign_up.html">
+    
+  </head>
+<body>
+
+<!-- The navigation menu -->
+<h2>E-BookMaker</h2>
+<a class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-right" href="sign_up.html" target="_blank" >Make Your E-Book Now!</a>
+
+<div class="navbar">
+  <a href="#home">HOME</a>
+  <!--  -->
+ 
+  
+  <div class="subnav">
+   <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    
+   
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">LEARN<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="learn.html">How to create an ebook</a>
+      <!--<a href="#package">System Status</a>-->
+     
+    </div>
+  </div>
+
+  <div class="subnav">
+    <button class="subnavbtn">CREATE<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="Magazines.html">Magazines</a>
+      <a href="textediter.html">E-books</a>
+    </div>
+    
+  </div>
+  <a href="Contact.html">CONTACT</a>
+</div>
+    
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#create" onclick="w3_close()" class="w3-bar-item w3-button">CREATE</a>
+  <a href="#learn" onclick="w3_close()" class="w3-bar-item w3-button">LEARN</a>
+  <a href="#templates" onclick="w3_close()" class="w3-bar-item w3-button">TEMPLATES</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="Contact.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small"><b>Start something that matters</b></span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
+    <span class="w3-large"><b>Make your next eBook a bestseller with a professional design that catches the eye.</b></span>
+    <p><a href="sign_up.html" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+
+
+<!-- Templates Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center"><b>Templates for absolutely anything</b></h3>
+  <p class="w3-center w3-large">Customise an office template, or design something more personal, like an invitation.</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="img1.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <a class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom" href="templte.html" target="_blank"><h3>Edit this template</h3></a>
+          
+          
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="img2.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <a class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom" href="templte.html" target="_blank"><h3>Edit this template</h3> </a>
+         
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="img3.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <a class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom" href="templte.html" target="_blank"><h3>Edit this template</h3> </a>
+         
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="img4.jpg" alt="Dan" style="width:90%">
+        <div class="w3-container">
+          <a class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom" href="templte.html" target="_blank"><h3>Edit this template</h3> </a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom" href="templte.html" target="_blank"><h4>More......</h4></a>
+</div>
+
+
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>We know design.</h3>
+      <p>Readers might judge a book by its cover, but you'll also want to make sure the design around what's inside your eBook is completely up to scratch.</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"></i> View Our Books</a></p>
+    </div>
+
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="2.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center"><b>Books</b></h3>
+  <p class="w3-center w3-large">Starting out with an ebook template can be a great way to make your design process much quicker. Instead of drawing out your design plans, 
+    you simply browse one of our pre-designed templates to pop your ebook content into.</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="book1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+      <a class="w3-button w3-round-xxlarge w3-small w3-blue-gray w3-margin-bottom" href="IOT David Hanes.pdf" target="_blank"><h5>Download</h5></a>
+   </div>
+    <div class="w3-col l3 m6">
+      <img src="book2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+      <a class="w3-button w3-round-xxlarge w3-small w3-blue-gray w3-margin-bottom" href="IOT David Hanes.pdf" target="_blank"><h5>Download</h5></a>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="python.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+      <a class="w3-button w3-round-xxlarge w3-small w3-blue-gray w3-margin-bottom" href="Python  Practical Python Programming For Beginners and Experts ( PDFDrive ).pdf" target="_blank"><h5>Download</h5></a>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="book4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+      <a class="w3-button w3-round-xxlarge w3-small w3-blue-gray w3-margin-bottom" href="IOT David Hanes.pdf" target="_blank"><h5>Download</h5></a>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="book5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+      <a class="w3-button w3-round-xxlarge w3-small w3-blue-gray w3-margin-bottom" href="book Himansu Pandey.pdf" target="_blank"><h5>Download</h5></a>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="book6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+      <a class="w3-button w3-round-xxlarge w3-small w3-blue-gray w3-margin-bottom" href="IOT David Hanes.pdf" target="_blank"><h5>Download</h5></a>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="book7.jpg" style="width:100%" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+    </div><a class="w3-button w3-round-xxlarge w3-small w3-blue-gray w3-margin-bottom" href="c program.pdf" target="_blank"><h5>Download</h5></a>
+    <div class="w3-col l3 m6">
+      <img src="java.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+      <a class="w3-button w3-round-xxlarge w3-small w3-blue-gray w3-margin-bottom" href="Java Programming Fundamentals.pdf" target="_blank"><h5>Download</h5></a>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3 href=""><b>Share Your Ebook</b></h3>
+      <p>It's so easy to create and share ebooks with E-BookMaker.
+      While you can always download your ebooks as PDF documents to send out to your audience, E-BookMaker will also provide a shareable link so you can create interactive and animated ebooks that will further engage and wow your audience.</p>
+    </div>
+   
+    <img src="9.jpg" width="45%" height="40%">
+  </div>
+</div>
+
+
+
+
+    <!-- Image of location/map -->
+    <style>
+      #myVideo {
+        background-position: center;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  }
+  </style>
+    
+    <video autoplay muted loop id="myVideo">
+      <source src="vd.mp4" type="video/mp4">
+    </video> 
+    
+  </div>
+
+  <!--about us--> 
+  <div class="w3-container" style="padding:128px 16px" id="about">
+    <h3 class="w3-center">ABOUT THE WEBSITE</h3>
+    <p class="w3-center w3-large">Key features of our Webside</p>
+    <div class="w3-row-padding w3-center" style="margin-top:64px">
+      <div class="w3-quarter">
+        <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+        <p class="w3-large">Responsive</p>
+        <p>Customize every aspect of your ebook to educate your e-readers and audience online.</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Passion</p>
+        <p>Make your ebook design ideas custom prints font pairing colors.</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Design</p>
+        <p>Beautiful ebook templates. Color wheel palette generator blog apps template directory</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Community</p>
+        <p>Community online communties creators e-book represents fund developers affiliates program.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+ <p class="w3-small">Your ebooks deserve to be beautiful and so does the rest of your content</p>
+ <a class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom" href="sign_up.html" target="_blank">Sign up.It's free!</a>
+</footer>
+ 
+<script>
+
+</script>
+</body>
+</html>
+
+
